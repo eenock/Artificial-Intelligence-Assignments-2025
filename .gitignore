@@ -1,2 +1,57 @@
 data/cifar-10-python.tar.gz
 data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.gitignore
+
+# Virtual Environment
+.venv/
+venv/
+
+# PyTorch & Data
+data/
+*.pth
+*.pt
+
+# Images & Outputs (except your final figures)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints
+
+# Project-specific junk
+tang_poetry_gpt_results_*
+campusbot_results.txt
+invisibleCloak.py
+gibbs_convergence.png
